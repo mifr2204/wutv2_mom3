@@ -1,0 +1,33 @@
+
+html {
+    background-color:lightgrey;
+} 
+header {
+    background-color: lightblue;
+    padding: 0;
+    margin: 0;
+}
+main {
+    background-color: white;
+}
+#cont{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "vad vem nar";
+    text-align: center;
+}
+#divvad{
+    grid-area: vad;
+}
+#divvem {
+    grid-area: vem;
+}
+#divnar{
+    grid-area: nar;
+}
+#link {
+    margin-left: 50%;
+    margin-right: auto;
+}
